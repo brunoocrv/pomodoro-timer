@@ -2,8 +2,7 @@ import { useContext } from 'react'
 import { useFormContext } from 'react-hook-form'
 
 import * as S from './styles'
-
-import { CycleContext } from '../../pages/Home'
+import { CycleContext } from '../../contexts/CyclesContext'
 
 export function CycleForm() {
   const { activeCycle } = useContext(CycleContext)
